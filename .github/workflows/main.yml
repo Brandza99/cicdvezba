@@ -14,3 +14,54 @@ jobs:
       - name: Print message
 
         run: echo "Hello DevOps"
+
+name: Starting pipeline
+
+on:
+  push:
+
+jobs:
+
+  hello:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Print message
+
+        run: echo "Starting Pipeline"
+
+name: Checking files
+
+on:
+  push:
+
+jobs:
+
+  hello:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Print message
+
+        run: echo "Checking files"
+
+name: Pipeline finished
+
+on:
+  push:
+
+jobs:
+
+  hello:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Print message
+
+        run: echo "Pipeline finished"
