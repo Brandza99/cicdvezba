@@ -11,19 +11,16 @@ jobs:
 
     steps:
 
-     - name: Print message
-
+      - name: Print message
         run: echo "Hello DevOps"
 
-     - name: Starting
-
+      - name: Starting
         run: echo "Starting pipeline"
 
-     - name: Checking files
-
+      - name: Checking files
         run: echo "Checking files"
 
-     - name: Finished
-
+      - name: Finished
         run: echo "Pipeline finished"
+
 
